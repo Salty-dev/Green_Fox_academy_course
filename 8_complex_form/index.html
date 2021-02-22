@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complex form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset id="basic-field">
+            <legend>Interesting application form 🙄</legend>
+          
+            <fieldset>
+            <legend>What is your name?</legend>
+                <input type="text" name="realName">
+            </fieldset>
+          
+            <fieldset>
+            <legend>What is your favorite color?</legend>
+                <input type="checkbox" id="color-red" name="color-red" value="red">
+                <label for="color-red"> Red</label><br>
+                <input type="checkbox" id="color-green" name="color-green" value="green">
+                <label for="color-green"> Green</label><br>
+                <input type="checkbox" id="color-blue" name="color-blue" value="blue">
+                <label for="color-blue"> Blue</label><br>
+                <input type="checkbox" id="color-other" name="color-other" value="other">
+                <label for="color-other"> Other</label>
+                <input type="text" class="text-other" name="text-other">
+            </fieldset>
+        
+            <fieldset>
+            <legend>Would you like to become a developer?</legend>
+                <input type="radio" id="ans-yes" name="selected-item" value="yes">
+                <label for="ans-yes"> Yes</label><br>
+                <input type="radio" id="ans-ano" name="selected-item" value="ano" checked>
+                <label for="ans-ano"> Ano</label><br>
+                <input type="radio" id="ans-igen" name="selected-item" value="igen">
+                <label for="ans-igen"> Igen</label><br>
+                <input type="radio" id="ans-chinese" name="selected-item" value="chinese-yes">
+                <label for="ans-chinese"> 是</label>
+            </fieldset>
+        
+            <fieldset>
+            <legend>Why would you like to become a developer?</legend>
+                <textarea id="long-answer" name="long-answer" rows="15" cols="40"></textarea>
+            </fieldset>
+          
+            <button>Submit</button>
+        </fieldset>  
+      </form>
+</body>
+</html>

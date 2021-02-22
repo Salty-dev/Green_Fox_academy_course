@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Sen';
+    src: url(fonts/Sen/Sen-Regular.ttf);
+}
+
+a {
+    display: block;
+    margin: 10px;
+    font-family: 'Sen';
+    font-weight: bold;
+    color: green
+}
+  
+a:hover {
+    color: lime;
+    text-decoration: none;
+}

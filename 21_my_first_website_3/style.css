@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    background: #2c2828;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+    color: #219897;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #85cfcb;
+}
+
+main {
+    font-family: 'Roboto';
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+aside {
+    width: 35%;
+    height: 1550px;
+    color: #9b9494;
+    background-color: #2c2828;
+}
+
+section {
+    width: 65%;
+    height: 1550px;
+    font-family: 'Roboto';
+    color: #9b9494;
+}
+
+#image {
+    background-image: url("images/rabbit.jpg");
+    background-size: 350px 197px;
+    height: 197px;
+    background-position: center;
+}
+
+#profile,
+#skills,
+#language,
+#awards,
+#interests,
+header,
+#contact,
+#experiences,
+#education,
+#references {
+    padding: 20px 20px 0 20px;
+}
+
+h3,
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+aside h3,
+aside h4 {
+    color: white;
+}
+
+aside h3 {
+    border-bottom: 1px solid white;
+}
+
+aside h4 {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+section h3 {
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#company {
+    margin-top: 0;
+}
+
+aside p,
+section p,
+label {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+meter {
+    width: 200px;
+    padding-bottom: 2px;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #219897;
+}
+
+meter::-moz-meter-bar {
+    background: #219897;
+}
+
+#interests-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#interests-container p {
+    margin: 0;
+}
+
+.icon::before {
+    color: #219897;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 30px;
+    text-align: center;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.travel::before {
+    display: block;
+    content: "\f55e";
+}
+
+.gaming::before {
+    display: block;
+    content: "\f11b";
+}
+
+.chating::before {
+    display: block;
+    content: "\f086";
+}
+
+.coffee::before {
+    display: block;
+    content: "\f0f4";
+}
+
+.address::before,
+.phone::before,
+.mobile::before,
+.email::before,
+.web::before,
+.exp::before,
+.edu::before,
+.ref::before {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.address::before,
+.phone::before,
+.mobile::before,
+.email::before,
+.web::before {
+    font-size: 20px;
+}
+
+.address::before {
+    content: "\f3c5";
+}
+
+.phone::before {
+    content: "\f879";
+}
+
+.mobile::before {
+    content: "\f3cd";
+}
+
+.email::before {
+    content: "\f0e0";
+}
+
+.web::before {
+    content: "\f5fc";
+}
+
+.exp::before {
+    content: "\f0b1";
+}
+
+.edu::before {
+    content: "\f19d";
+}
+
+.ref::before {
+    content: "\f0c6";
+}
+
+header {
+    background: #219897;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1,
+header p {
+    margin: 0;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#lastname {
+    color: #2c2828;
+}
+
+#contact-container,
+#experiences-container,
+#education-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#referencies-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-container p {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.job-left,
+.school-left {
+    width: 190px;
+}
+
+.job-right,
+.school-right {
+    width: 400px;
+}
+
+.ref-left,
+.ref-right {
+    width: 280px;
+}
+
+.ref-left span,
+.ref-right span {
+    display: inline-block;
+    width: 80px;
+    color: #2c2828;
+}
+
+.post-name,
+.institution-name {
+    font-weight: bold;
+    color: #2c2828;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.post-name {
+    text-transform: uppercase;
+}
+
+.date {
+    margin: 0;
+}
+
+#contact p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.post-position {
+    margin: 0 0 30px 0;
+}

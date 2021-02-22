@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+.container {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans';
+}
+  
+.newsletter {
+    color: grey;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+  
+.newsletter h3 {
+    margin-top: 0;
+}
+  
+.newsletter button {
+    background-color: #3cb878;
+    border: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+  
+.newsletter input#email {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+  
+.newsletter #terms {
+    position: relative;
+    top: 1px;
+  }
+  
+.newsletter #closex {
+    position: absolute;
+    top: 0px;
+    right: 4px;
+}
+  
+#questionmark {
+    background-color: #3cb878;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+  
+#card-holder {
+    /* height: 450px; */
+    display: flex;
+    
+    /* Vízszintes pozicionálás */
+    justify-content: space-between;
+    /* Az érték lehet: flex-start, flex-end, space-around */
+    
+    /* Különböző magasságú dobozok igazítása függőlegesen:
+       align-items: flex-start;
+       Az érték lehet: flex-end, center */
+    align-items: center;
+    
+    /* Függőleges pozicionálás */
+    /* flex-direction: column; */
+    /* alapértelmezett érték a row */
+    
+    /* A dobozok fordított sorrendbe rendezése */
+    /* flex-direction: row-reverse; */
+    
+    /* Dobozok elhelyezése sortöréssel */
+    flex-wrap: wrap;
+    /* Dobozok közötti margók automatikus alkalmazása
+       többsoros elrendezés esetén */
+    align-content: space-between;
+    /* Az érték lehet: flex-start, flex-end, space-around */
+}
+  
+.card {
+    background-color: #3cb878;
+    /* width: 180px; */
+    
+    /* automatikus szélesség megadása teljes helykitöltéssel */
+    flex-grow: 1;
+    
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 0 7px 2px grey;
+}
+  
+.card h3 {
+    margin-bottom: 0;
+}
+  
+.card.middle {
+    /* A középső doboz 1,5-szer akkora, mint a szélsők */
+    flex-grow: 1.5;
+}

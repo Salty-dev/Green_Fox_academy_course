@@ -1,0 +1,59 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+#menu-container {
+    padding-left: 0;
+    margin: 0;
+    background: purple;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+  
+.menu-item1,
+.menu-item2,
+.menu-item3 {
+    list-style-type: none;
+    background: cyan;
+    height: 30px;
+    margin-left: 15px;
+}
+  
+.menu-item1,
+.menu-item3 {
+    width: 90px;
+}
+  
+.menu-item1 {
+    margin-left: 100px;
+}
+  
+.menu-item2 {
+    width: 140px;
+}
+  
+section {
+    display: flex;
+    margin: 80px 100px 10px 100px;
+}
+  
+article {
+    height: 1500px;
+    background: yellow;
+    flex-grow: 4;
+}
+  
+aside {
+    height: 1500px;
+    background: lime;
+    flex-grow: 1;
+}
+  
+footer {
+    height: 80px;
+    background: grey;
+    margin: 0 100px;
+}

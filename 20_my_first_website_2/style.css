@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Domine';
+    src: url(fonts/Domine/Domine-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url(fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+body {
+    width: 1140px;
+    margin: 0 auto;
+    background: #ffc;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#menu-container {
+    margin: 0;
+    padding: 0;
+    background: #600;
+    width: 1140px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-size: 46px;
+    color: #69f;
+}
+
+.menu-item:hover {
+    color: #6fc;
+}
+
+main {
+    margin-top: 90px;
+    padding: 0;
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-left-image,
+.item-left {
+    width: 456px;
+    margin-bottom: 70px;
+    font-family: 'Domine';
+    font-size: 66px;
+    font-weight: bold;
+    position: relative;
+}
+
+.item-left-image {
+    background-image: url("images/hayden_christensen.webp");
+    background-size: 1280px 721px;
+    height: 608px;
+    background-position: center;
+}
+
+.item-left {
+    background: #033;
+    height: 556px;
+    color: white;
+}
+
+.item-right {
+    width: 624px;
+    margin-bottom: 70px;
+    padding: 20px 40px 20px 20px;
+    font-family: 'Roboto';
+    font-size: 28px;
+    color: #006;
+    line-height: 1.5;
+}
+
+h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f30;
+    top: 300px;
+    left: 60px;
+}
+
+h1 span {
+    font-size: 100px;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+blockquote {
+    margin: 80px 60px;
+    line-height: 1.5;
+}
+
+.qmark {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-size: 160px;
+}
+
+#extended-quote {
+    height: 952px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: 'Roboto Bold';
+    font-size: 34px;
+}
+
+h3 span {
+    display: inline-block;
+}
+
+h3 span::first-letter,
+.wider-letter {
+    font-family: 'Roboto Black';
+}
+
+.sec-with-ins h3 {
+    margin-bottom: 0;
+}
+
+.inscription {
+    font-family: 'Merriweather';
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: normal;
+    margin-top: 0;
+}
+
+.general-content {
+    font-size: 22px;
+}

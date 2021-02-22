@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Baloo Thambi 2';
+    src: url(fonts/Baloo_Thambi_2/BalooThambi2-Medium.ttf);
+}
+
+div {
+    width: 200px;
+    height: 100%;
+    font-family: 'Baloo Thambi 2';
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: 5px solid #4285f4;
+}
+  
+.north,
+.east,
+.south,
+.west {
+    margin: 0;
+    padding: 10px;
+}
+  
+.north {
+    background: #E67676;
+}
+  
+.east {
+    background: #F2F062;
+}
+  
+.south {
+    background: #A9E6E6;
+}
+  
+.west {
+    background: #7692E4;
+}
