@@ -1,0 +1,83 @@
+body {
+    width: 500px;
+    background: coral;
+    margin: 0 auto;
+}
+
+div {
+    width: 500px;
+    min-height: 600px;
+    background: gainsboro;
+    margin: 0;
+}
+
+h1 {
+    
+    margin: 0px;
+    padding: 40px 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: chocolate;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid chocolate;
+    border-right: none;
+}
+
+input:focus,
+button {
+    outline: none;
+}
+
+button {
+    width: 72px;
+    height: 32px;
+    margin: 0 0 0 -4px;
+    padding: 0;
+    border: 1px solid chocolate;
+    border-left: none;
+    background: chocolate;
+    color: white;
+}
+
+button:active {
+    background: sienna;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+    margin: 30px 55px;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    color: saddlebrown;
+}
+
+li span {
+    display: inline-block;
+    width: 340px;
+}
+
+.done {
+    color: burlywood;
+}
+
+i {
+    display: inline-block;
+    padding-left: 5px;
+}

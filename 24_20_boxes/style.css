@@ -1,0 +1,29 @@
+#first-container,
+#last-container {
+    width: 700px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#last-container {
+    background: orangered;
+}
+
+#first-container div,
+#last-container div {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#first-container div{
+    background: blue;
+}
+
+#last-container div {
+    background: purple;
+}
