@@ -1,0 +1,91 @@
+body {
+    background-color: gainsboro;
+    margin: 0;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#images-container {
+    height: 500px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#arrow-left,
+#arrow-right {
+    width: 100px;
+    text-align: center;
+    padding: 242px 0;
+}
+
+#arrow-right {
+    transform: rotateY(180deg);
+}
+
+#arrow-left:hover,
+#arrow-right:hover {
+    background-color: white;
+}
+
+#images {
+    position: relative;
+}
+
+#text-container {
+    position: absolute;
+    margin: 0;
+    height: 130px;
+    top: 370px;
+    bottom: 0;
+    background-color: dimgrey;
+    color: white;
+    opacity: 0.9;
+}
+
+#image-title,
+#image-description {
+    margin: 10px;
+}
+
+#thumbnails-container {
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-box {
+    margin: 0;
+    position: relative;
+}
+
+.thumbnail-box .title {
+    display: none;
+    width: 96px;
+    margin: 0;
+    padding: 2px;
+    border-radius: 5px;
+    position: absolute;
+    left: 5px;
+    background: grey;
+    color: white;
+    font-size: 12px;
+}
+
+.thumbnail-box:hover .title {
+    display: block;
+}
+
+.thumbnail {
+    margin: 5px;
+    box-shadow: 0 4px 8px dimgrey;
+}
+
+.thumbnail:hover {
+    margin: 5px;
+    box-shadow: 0 4px 8px black;
+}
