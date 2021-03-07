@@ -1,89 +1,58 @@
-/* Nagy képek listája */
+/* Képek listája */
 var imagesData = [
     {
         photo: "images/leopard2a7.jpg",
+        thumb: "images/thumbnails/leopard2a7_thumbnail.jpg",
         title: "Leopard 2A7+",
         description: "Ez az alváltozat 2010 nyarán jelent meg. Kifejlesztése a 2000-es évek első évtizedének háborúi és más konfliktusai során szerzett tapasztalaton alapult. Ezekben a háborúkban a harckocsik nem ellenséges tankokkal, hanem terrorista szervezetekkel és magányos személyekkel harcoltak, sokszor nem a nyílt harcmezőn, hanem zsúfolt városi környezetben."
     },
     {
         photo: "images/pzh2000.jpg",
+        thumb: "images/thumbnails/pzh2000_thumbnail.jpg",
         title: "Panzerhaubitze 2000",
         description: "A Panzerhaubitze 2000 (magyarul páncélos tarack), röviden PzH 2000, német önjáró tarackágyú. Számos korszerű berendezésének és magas fokú automatizáltságának köszönhetően figyelemre méltóak tűzgyorsasági, csőhosszának köszönhetően pedig lőpontossági paraméterei, emellett öndiagnosztizálásából fakadóan alacsony a karbantartási igénye is."
     },
     {
         photo: "images/lynx_kf41.jpg",
+        thumb: "images/thumbnails/lynx_kf41_thumbnail.jpg",
         title: "Lynx KF41",
         description: "A Lynx („Hiúz”) egy páncélozott gyalogsági harcjármű, amelyet a német Rheinmetall Landsysteme fejleszt. A KF41 változatot 2018. június 12-én mutatták be először az Eurosatory védelmi kiállításon. A Rheinmetall szerint a Lynx harcjárműcsalád a gyalogsági harcjárművek legújabb generációját képviseli, alacsonyabb egység- és élettartam költségekkel, illetve egyszerűbb kialakítással."
     },
     {
         photo: "images/carl_gustav.jpg",
+        thumb: "images/thumbnails/carl_gustav_thumbnail.jpg",
         title: "Carl Gustav M4",
         description: "A Carl Gustaf hátrasiklás nélküli löveg egy 84 mm-es hordozható, többször felhasználható rakéta-páncéltörő fegyver. 2014-ben a Saab Dynamics bemutatta a vadonatúj Carl Gustaf M4-t. 6,6 kg, a cső hossza 950 mm. Rendelkezik vörös-pontos irányzékkal és menetközben való lőszer biztosítással a csőben. Hatásos lőtávolsága lézervezérlésű lőszerrel 2000 méter."
     },
     {
         photo: "images/ejder_yalcin.jpg",
+        thumb: "images/thumbnails/ejder_yalcin_thumbnail.jpg",
         title: "Elder Yalcin (Gidran)",
         description: "Az 5,7 méter hosszú, két és fél méter magas járműben akár kilenc katona is elfér. A 16 tonnás súlyt egy 375 lóerős dízelmotor hajtja, amellyel akár 120 kilométer/órás sebességre is képes. Egy tankkal 700 kilométerre is eljut, 60 százalékos emelkedőre is felmegy, de egy fél méter magas akadály vagy egyméteres vízfolyás sem jelent számára akadályt."
     },
     {
         photo: "images/airbus_h145m.jpg",
+        thumb: "images/thumbnails/airbus_h145m_thumbnail.jpg",
         title: "Airbus H145M",
         description: "A H145M egy közepes méretű többcélú katonai helikopter, amely képes a küldetések széles spektrumának megvalósítására egy közös platformon, legyen szó a szállításról, a kutatató mentő (SAR) feladatokról a harctéri mentésről és a fegyveres felderítésről. A csapatszállítások és a civil feladatok esetében a H145M  két pilótát és 10 főt tud befogadni."
     },
     {
         photo: "images/airbus_h225m.jpg",
+        thumb: "images/thumbnails/airbus_h225m_thumbnail.jpg",
         title: "Airbus H225M",
         description: "Az Airbus H225M - korábbi nevén Eurocopter EC725 Caracal -, nagy hatótávolságú taktikai katonai szállító helikopter, melyet az Eurocopter AS532 Cougar helikopterből fejlesztettek ki. A H225M gépek a legmodernebb kommunikációs technikával szerelték fel, így szállítási, harcászati és mentési műveletekben, továbbá a speciális egységek bevetésére egyaránt felhasználhatóak."
     },
     {
         photo: "images/cz_bren2.jpg",
+        thumb: "images/thumbnails/cz_bren2_thumbnail.jpg",
         title: "CZ BREN 2",
         description: "A CZ 806 BREN 2-t a Ceska Zbrojovka fejlesztette ki, amely egy gázelvételi rendszerű, szelektív tűzfegyver. A felső része alumíniumból, míg az alsó részegységei polimer anyagból készülnek. Kezdettől fogva több kaliberű fegyverként fejlesztették. Az 5,56×45 NATO, a 7,62×51 és az orosz 7,62×39 lőszerhez is alkalmazható. A francia GIGN különleges műveleti erők például a BREN 2-es 7,62×39 mm-es verzióját rendelték meg."
     },
     {
         photo: "images/cz_scorpion_evo3.jpg",
+        thumb: "images/thumbnails/cz_scorpion_evo3_thumbnail.jpg",
         title: "CZ Scorpion EVO3",
         description: "A Scorpion EVO 3 9×19 mm Parabellum lőszert használó, könnyű súlyú, kompakt géppisztoly, szűk helyeken való könnyű manőverezésre tervezték. A fegyvertok, pisztolymarkolat, válltámasz és az előagy műanyagból készült. Az A1 változatot ellátták egy tűzváltó karral, mellyel a kezelő válthat a biztosított, egyes lövés, hármas rövid sorozat vagy a sorozatlövés között."
-    }
-]
-
-/* Kisképek listája */
-var thumbData = [
-    {
-        thumb: "images/thumbnails/leopard2a7_thumbnail.jpg",
-        title: "Leopard 2A7+"
-    },
-    {
-        thumb: "images/thumbnails/pzh2000_thumbnail.jpg",
-        title: "Panzerhaubitze 2000"
-    },
-    {
-        thumb: "images/thumbnails/lynx_kf41_thumbnail.jpg",
-        title: "Lynx KF41"
-    },
-    {
-        thumb: "images/thumbnails/carl_gustav_thumbnail.jpg",
-        title: "Carl Gustav M4"
-    },
-    {
-        thumb: "images/thumbnails/ejder_yalcin_thumbnail.jpg",
-        title: "Elder Yalcin (Gidran)"
-    },
-    {
-        thumb: "images/thumbnails/airbus_h145m_thumbnail.jpg",
-        title: "Airbus H145M"
-    },
-    {
-        thumb: "images/thumbnails/airbus_h225m_thumbnail.jpg",
-        title: "Airbus H225M"
-    },
-    {
-        thumb: "images/thumbnails/cz_bren2_thumbnail.jpg",
-        title: "CZ BREN 2"
-    },
-    {
-        thumb: "images/thumbnails/cz_scorpion_evo3_thumbnail.jpg",
-        title: "CZ Scorpion EVO3"
     }
 ]
 
@@ -110,8 +79,7 @@ function loadThumbnails(itemData, index) {
 
 /* Betölti az első fotót és a thumbnail-eket. */
 loadImageContainer(currentPhoto)
-thumbData.forEach(loadThumbnails)
-console.log(activeIndex)
+imagesData.forEach(loadThumbnails)
 $(`.thumbnail[data-idx="${activeIndex}"]`).css({"box-shadow": "0 4px 8px black"})
 
 /* A balra és jobbra nyilakkal történő navigálás lekezelése */
